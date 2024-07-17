@@ -1,0 +1,16 @@
+
+<div class="row object-fit-sm-contain">
+    {% for job in jobs %}
+        <div class="mx-auto" style="width: 70%;">
+            <h4>{{ job['name'] }}</h4>
+            <br>
+            Price = {{ job['price'] }} <br>
+            Duration = {{ job['duration'] }}
+        </div>
+
+        <div class="mx-auto my-5 text-end" style="width: 30%;">
+            <button class="btn btn-outline-primary">Apply</button>
+        </div>
+        <hr>
+    {% endfor %}
+</div>

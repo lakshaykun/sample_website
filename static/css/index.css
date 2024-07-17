@@ -1,5 +1,18 @@
-#banner {
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 99vh;
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+}
+
+.scrollable-div {
+    height: 99vh;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto; /* Enables vertical scrolling */
+    overflow-x: hidden; /* Hides horizontal scrolling */
 }
